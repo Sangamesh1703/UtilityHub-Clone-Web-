@@ -1,0 +1,63 @@
+@media screen and (max-width: 650px){
+
+    body{
+        /* background-color: aqua; */
+    }
+
+    .header-left h1{
+        font-size: 2rem;
+    }
+
+    .header-right img{
+        width: 370px;
+    }
+
+    .logos{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .features-area{
+        justify-content: space-around;
+    }
+
+.subfooter h5{
+    padding-right: ;
+}
+
+.examples-area{
+    flex-wrap: wrap;
+    /* width: 800px; */
+}
+    
+
+}
+
+@media screen and (max-width:444px){
+    body{
+        background-color: aqua;
+    }
+
+    .header-section{
+        flex-direction: column-reverse;
+        
+    }
+
+    .big-feature-container{
+        flex-direction: column;
+    }
+
+    .footer-container{
+        justify-content: space-between;
+        gap: 5px;
+    }
+    .hover-link{
+        font-size: 0.8rem;
+    }
+    
+    .company-logol img{
+        width: 130px;
+    }
+
+    
+}
